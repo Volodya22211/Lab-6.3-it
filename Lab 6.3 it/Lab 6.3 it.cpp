@@ -45,7 +45,7 @@ int main() {
     
     generateArray(a, arrSize, -100, 100);
 
-    cout << "Array Elements: ";
+    cout << "Array Elements:                        ";
     printArray(a, arrSize);
     
     int biggestNumber = FindBiggestElement(a, arrSize, INT_MIN);
@@ -55,7 +55,7 @@ int main() {
     int b[arrSize1];
 
     generateArray1(b, arrSize1, -100, 100);
-    cout << "Array Elements: ";
+    cout << "Array Elements:                        ";
     printArray1(b, arrSize1);
 
     int biggestNumber1 = FindBiggestElement1(b, arrSize1, INT_MIN);

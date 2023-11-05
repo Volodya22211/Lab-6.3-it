@@ -13,6 +13,7 @@ namespace UnitTest1
 		{
 			int a[10] = { -78, 2, 98, 100, 70, 80, 4, 56, 59, 61 };
 			int c = FindBiggestElement(a, 10, INT_MIN);
+			Assert::AreEqual(c, 100);
 		}
 	};
 }
